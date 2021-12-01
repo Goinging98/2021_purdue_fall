@@ -19,10 +19,20 @@ Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tre
 
 ### 💡 Data Tagging
 For annotation, video is divided into 10 frames per second and each frame is annotated as a tree tag with V7 tagging tool. The result of these tags is a polygon with a coordinate value of each vertex and bounding box.  
+
 ![data tagging](https://user-images.githubusercontent.com/38778937/144263692-de9642f6-f1f1-4172-b948-15ffe464a9f2.jpg)
 
 
-
+### 💡 Haar Cascade
+In general, Haar cascade detects features after making the image gray scale, but the target is a kind of tree, and to obtain advantage in detection in autumn and winter, color is also included in the feature. It extracts the features of an object and creates a xml file that trains its features. Haar cascade classifier provides xml file for detection. To train with Haar cascade, cascade Trainer GUI is used as a tool. It is a program that is used to train, test, and improve cascade classifier models with positive and negative images. Positive images are training materials for the classifier and negative images are images that don't contain the objects. Positive and negative images are relevant to the objects, but negative images should not include positive features.  
+By preparing an image dataset manually, train data has been settled. Once the parameters are tuned and the training process is finished, an XML file will be created as a result. The XML file contains information as a classifier. And OpenCV provides a method for the Haar cascade named ‘detectMultiScale’. Then, it is tested with a new video to evaluate the output to analyze the accuracy of detection.
 
 ### 💡 YOLOv4
+YOLOv4 is an object detection algorithm which is improved from the previous version. The majority object detectors based on CNN are used in specific systems, leading to reduced practicality of the algorithms. Darknet is used to train YOLOv4 object detectors. Detailed settings such as batch size, numbers of classes, etc. are configured to allow YOLOv4 to learn, making config files. The model is trained with the tree dataset using the config file. 
+
+### 💡 Comparison 
+The performance of two algorithms can be evaluated by using the F1 score, which is used as a classification evaluation metric for comparing these two algorithms. The F1 score consists of two factors, Recall and Precision. The definition of these two factors is described with 4 elements: True positive (TP), true negative (TN), false true (FT) and false positive (FP).  
+With F1 score, the performance is also evaluated with FPS because YOLOv4 and Haar cascade can be processed in real time. 3-5 FPS or 10 FPS is required for FPS for real-time object detection speed is required. Speed of each algorithm can be compared to whether real-time processing can be conducted or not.  
+Through this research, the recall and the precision of each algorithm are compared in figures and the difference in seasonal features will be studied. Furthermore, Haar cascade is usually used to detect facial features with significant recognition, so this paper can be reached to expand the scope by detecting another object.
+
 
