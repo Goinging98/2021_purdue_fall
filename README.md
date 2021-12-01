@@ -1,4 +1,4 @@
-# Detecting Red Cedar tree by Haar Cascade and YOLOv4 🎄
+# 🎄 Detecting Red Cedar tree by Haar Cascade and YOLOv4 
 
 This research proposes a Machine Learning algorithm model to identify, locate and mark red cedar trees in a range land area by utilizing digital image processing. Haar cascade and You Only Look Once version 4 (YOLOv4) will be used to detect and red cedar will be detected in a seasonal difference with long term observation.  
 This study has the potential to supplement future studies leading to the estimation of ground identification and volume from Unmanned Aerial Vehicle (UAV) imagery.
