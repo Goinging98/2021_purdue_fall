@@ -4,6 +4,7 @@ Understanding the spatial distribution of the species of Red Cedar trees in the 
 This research proposes a Machine Learning algorithm model to identify, locate and mark red cedar trees in a range land area by utilizing digital image processing. Haar cascade and You Only Look Once version 4 (YOLOv4) will be used to detect and red cedar will be detected in a seasonal difference with long term observation.  
 This study has the potential to supplement future studies leading to the estimation of ground identification and volume from Unmanned Aerial Vehicle (UAV) imagery.
 </br></br>
+
 ## Eastern Red Cedar, Juniperus Virginiana
 Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tree that can be found in midcontinent forest–prairie transitional region and ecotone of North America. The expansion of eastern red cedar had an adverse effect on indigenous species across numerous states in America.
 </br>
@@ -15,6 +16,13 @@ Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tre
 ## Method
 ### 💡 Flowchart
 ![flowchart](https://user-images.githubusercontent.com/38778937/144263024-e2d19044-07fd-43b2-a485-e69223fe4d3e.png)
+
+### 💡 Data Tagging
+For annotation, video is divided into 10 frames per second and each frame is annotated as a tree tag with V7 tagging tool. The result of these tags is a polygon with a coordinate value of each vertex and bounding box.  
+![data tagging](https://user-images.githubusercontent.com/38778937/144263692-de9642f6-f1f1-4172-b948-15ffe464a9f2.jpg)
+
+
+
 
 ### 💡 YOLOv4
 
