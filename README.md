@@ -1,4 +1,4 @@
-# 2021 Purdue fall (2021.10~12)
+# Detecting Red Cedar tree by Haar Cascade and YOLOv4
 
 Understanding the spatial distribution of the species of Red Cedar trees in the middle of the United States is vital for forestry and range management to restrict the spread of this species. Techniques to identify, locate, and mark this species can be used to calculate the cost to control the spread of this species.  
 This research proposes a Machine Learning algorithm model to identify, locate and mark red cedar trees in a range land area by utilizing digital image processing. Haar cascade and You Only Look Once version 4 (YOLOv4) will be used to detect and red cedar will be detected in a seasonal difference with long term observation.  
