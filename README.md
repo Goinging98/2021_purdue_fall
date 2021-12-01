@@ -1,6 +1,5 @@
-# Detecting Red Cedar tree by Haar Cascade and YOLOv4
+# Detecting Red Cedar tree by Haar Cascade and YOLOv4 🎄
 
-Understanding the spatial distribution of the species of Red Cedar trees in the middle of the United States is vital for forestry and range management to restrict the spread of this species. Techniques to identify, locate, and mark this species can be used to calculate the cost to control the spread of this species.  
 This research proposes a Machine Learning algorithm model to identify, locate and mark red cedar trees in a range land area by utilizing digital image processing. Haar cascade and You Only Look Once version 4 (YOLOv4) will be used to detect and red cedar will be detected in a seasonal difference with long term observation.  
 This study has the potential to supplement future studies leading to the estimation of ground identification and volume from Unmanned Aerial Vehicle (UAV) imagery.
 </br>
@@ -22,6 +21,7 @@ Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tre
 ## Aim 
 - Suggest a time-effective and economical method to detect red cedar usinag cameras instead of LiDAR and SAR. 
 - Proposes a cost-effective method to detect the tree utilizing aerial images from the camera that is attached to a UAV. 
+</br>
 
 ## Method
 ### 💡 Flowchart
@@ -30,7 +30,8 @@ Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tre
 ### 💡 Data Tagging
 For annotation, video is divided into 10 frames per second and each frame is annotated as a tree tag with V7 tagging tool. The result of these tags is a polygon with a coordinate value of each vertex and bounding box.  
 
-![data tagging](https://user-images.githubusercontent.com/38778937/144263692-de9642f6-f1f1-4172-b948-15ffe464a9f2.jpg)
+![data tagging_side](https://user-images.githubusercontent.com/38778937/144276628-07991c13-c5db-4549-9b57-ece8a90506f8.jpg)
+
 
 
 ### 💡 Haar Cascade
