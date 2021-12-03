@@ -51,7 +51,7 @@ For annotation, video is divided into 10 frames per second and each frame is ann
       - Result : Visualized result with bounding box
 4. YOLOv4
     - Training
-      - Prepared : OpenCV 4.5.4, Darknet, Image frames, Text files with coordniate value of bounding box
+      - Prepared : OpenCV 4.5.4, Darknet, Image frames, Text files with coordinate value of bounding box, Config file
       - Result : YOLOv4 Weight file
     - Testing
       - Prepared : Darknet, YOLOv4 Weight file, Testing video (never used in training)
