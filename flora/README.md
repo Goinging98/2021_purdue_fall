@@ -19,9 +19,6 @@ Eastern Red Cedar, also known as Juniperus Virginiana, is a native evergreen tre
 For instance, the state of Oklahoma is losing 278,130 acres per year from the invasion of juniper species. As a result of losing precious land resources to this species, the expansion of the trees has a negative effect on the local economy. The introduction of eastern red cedar also decreases biodiversity.  
 Therefore, detecting red cedar is required before the tree matures and is widely spread.  
 </br>
-![image](https://user-images.githubusercontent.com/38778937/144342171-6631d69a-15d7-4465-8458-e7ece16c29de.png)
-
-</br>
 
 ## Aim and Novelty 
 - Suggest a time-effective and economical method to detect red cedar usinag cameras instead of LiDAR and SAR. 
@@ -57,7 +54,7 @@ For annotation, video is divided into 10 frames per second and each frame is ann
       - Prepared : OpenCV 4.5.4, Darknet, Image frames, Text files with coordniate value of bounding box
       - Result : YOLOv4 Weight file
     - Testing
-      - Prepared : Darknet, Testing video (never used in training)
+      - Prepared : Darknet, YOLOv4 Weight file, Testing video (never used in training)
       - Result : Visualized result with bounding box
 
 
