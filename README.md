@@ -30,7 +30,8 @@ Therefore, detecting red cedar is required before the tree matures and is widely
 
 ## Method
 ### 💡 Flowchart
-![flowchart](https://user-images.githubusercontent.com/38778937/144263024-e2d19044-07fd-43b2-a485-e69223fe4d3e.png)
+![flowchart](https://user-images.githubusercontent.com/38778937/146014816-991ec3ae-21c2-45f4-a6f7-e6f61e8d805d.jpg)
+
 
 ### 💡 Data Tagging
 For annotation, video is divided into 10 frames per second and each frame is annotated as a tree tag with V7 tagging tool. The result of these tags is a polygon with a coordinate value of each vertex and bounding box.  
