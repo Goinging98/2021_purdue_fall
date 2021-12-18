@@ -1,4 +1,4 @@
-# 🎄 Detecting Red Cedar tree by Haar Cascade and YOLOv4 with Seasonal Comparison 
+# 🎄 Detecting Red Cedar tree by Haar Cascade and YOLOv4 with Seasonal Comparison 🎄
 
 This research proposes a Machine Learning algorithm model to identify, locate and mark red cedar trees in a range land area by utilizing digital image processing. Haar cascade and You Only Look Once version 4 (YOLOv4) will be used to detect and red cedar will be detected in a seasonal difference with long term observation.  
 This study has the potential to supplement future studies leading to the estimation of ground identification and volume from Unmanned Aerial Vehicle (UAV) imagery.
@@ -30,8 +30,7 @@ Therefore, detecting red cedar is required before the tree matures and is widely
 
 ## Method
 ### 💡 Flowchart
-![flowchart](https://user-images.githubusercontent.com/38778937/146014816-991ec3ae-21c2-45f4-a6f7-e6f61e8d805d.jpg)
-
+![flowchart](https://user-images.githubusercontent.com/38778937/144263024-e2d19044-07fd-43b2-a485-e69223fe4d3e.png)
 
 ### 💡 Data Tagging
 For annotation, video is divided into 10 frames per second and each frame is annotated as a tree tag with V7 tagging tool. The result of these tags is a polygon with a coordinate value of each vertex and bounding box.  
@@ -52,10 +51,11 @@ For annotation, video is divided into 10 frames per second and each frame is ann
       - Result : Visualized result with bounding box
 4. YOLOv4
     - Training
-      - Prepared : OpenCV 4.5.4, Darknet, Image frames, Text files with coordinate value of bounding box, Config file
+      - Prepared : OpenCV 4.5.4, Darknet, Image frames, Text files with coordniate value of bounding box
       - Result : YOLOv4 Weight file
     - Testing
-      - Prepared : Darknet, YOLOv4 Weight file, Testing video (never used in training)
+      - Prepared : Darknet, Testing video (never used in training)
       - Result : Visualized result with bounding box
+
 
 
